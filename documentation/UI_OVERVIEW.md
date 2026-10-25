@@ -58,6 +58,8 @@ dedicated quality or delivery model.
 
 ## High-level application flow
 
+![Shopper Assist UI and backend architecture](architecture.png)
+
 The diagram uses Mermaid class styles for colored blocks and arrows. A Mermaid
 renderer (for example, GitHub or a compatible Markdown preview extension) is
 needed to display it as a graphic.
@@ -108,6 +110,16 @@ flowchart TB
     class controls,prompt,decision action;
     class results,detail,answer,evidence output;
 ```
+
+## Pricing evidence into Jev
+
+![Bright Data and FalkorDB pricing evidence flow into Jev](jev-pricing-flow.png)
+
+Bright Data research is stored with the product record. Product records are
+synced to FalkorDB; when enabled for a Jev question, the current analysis
+compares selected products in the same currency and adds available review
+signals. Bright Data trend snapshots describe repeat scans of a product; they
+are not individual shopper history.
 
 ## API
 

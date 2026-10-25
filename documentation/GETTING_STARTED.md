@@ -72,4 +72,6 @@ decision, and status message. It does not delete stored products.
 
 The server imports product folders that are not yet present in DuckDB when it
 starts. See the [UI overview](UI_OVERVIEW.md) for the pages, feature areas, and
-their data flow.
+their data flow. The [architecture diagram](architecture.png) shows how the UI
+and backend components fit together; the [pricing flow diagram](jev-pricing-flow.png)
+shows how optional Bright Data and FalkorDB evidence reaches Jev.

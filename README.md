@@ -42,6 +42,15 @@ flowchart LR
     class brightdata,graph service;
 ```
 
+## Architecture
+
+The diagrams below show the application components and the pricing evidence
+flow into Jev.
+
+![Shopper Assist UI and backend architecture](documentation/architecture.png)
+
+![Bright Data and FalkorDB pricing evidence flow into Jev](documentation/jev-pricing-flow.png)
+
 ## Main components
 
 - **Product crawler:** processes product URLs from `urls.txt`, extracts available
