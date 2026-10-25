@@ -9,6 +9,6 @@ build/
 data/
 cache/
 api_config.json
-/configs/*.rtf
+/configs/
 /output/
 /urls.txt
