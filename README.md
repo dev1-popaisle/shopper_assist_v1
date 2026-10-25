@@ -51,6 +51,16 @@ flow into Jev.
 
 ![Bright Data and FalkorDB pricing evidence flow into Jev](documentation/jev-pricing-flow.png)
 
+### FalkorDB graph examples
+
+These screenshots show examples of the `product_search` graph: one product and
+its connected records, and a broader view of product relationships. The second
+image is cropped to omit the database connection address.
+
+![FalkorDB product and review relationships](documentation/falkordb-product-relationships.png)
+
+![FalkorDB product graph overview](documentation/falkordb-graph-overview.png)
+
 ## Main components
 
 - **Product crawler:** processes product URLs from `urls.txt`, extracts available

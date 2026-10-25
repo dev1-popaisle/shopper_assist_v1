@@ -121,6 +121,16 @@ compares selected products in the same currency and adds available review
 signals. Bright Data trend snapshots describe repeat scans of a product; they
 are not individual shopper history.
 
+## FalkorDB graph examples
+
+The screenshots below illustrate product-to-review relationships and the
+broader `product_search` graph. The overview image is cropped to omit the
+database connection address.
+
+![FalkorDB product and review relationships](falkordb-product-relationships.png)
+
+![FalkorDB product graph overview](falkordb-graph-overview.png)
+
 ## API
 
 The same server exposes a product API for clients using the logged-in session:
