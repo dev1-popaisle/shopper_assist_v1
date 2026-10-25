@@ -6,6 +6,8 @@ optional Bright Data web research, and lets the Jev decision engine compare
 products against a shopper's question. Optional FalkorDB analysis contributes
 price comparisons and review signals to pricing decisions.
 
+[Watch the Shopper Assist demo on YouTube](https://youtu.be/GQG0H67jepw)
+
 The URL crawler reads specific product URLs; it does not recursively crawl
 retailer sites or discover related products. Bright Data enrichment is an
 optional, separate web-research step. The crawler may also request
