@@ -29,7 +29,7 @@ flowchart LR
     brightdata --> records
     ui -->|selected products + question| jev["Jev decision engine"]
     duckdb -->|product details| jev
-    graph["FalkorDB graph<br/>products + brands + reviews"] -. optional price/review evidence .-> jev
+    graphdb["FalkorDB graph<br/>products + brands + reviews"] -. optional price/review evidence .-> jev
     jev -->|Choice + Noul + Score| shopper
 
     classDef shopper fill:#dbeafe,stroke:#2563eb,color:#172554,stroke-width:2px;
@@ -39,7 +39,7 @@ flowchart LR
     class shopper,ui app;
     class crawler,jev app;
     class productpages,records,duckdb data;
-    class brightdata,graph service;
+    class brightdata,graphdb service;
 ```
 
 ## Architecture
